@@ -1,8 +1,0 @@
-vars.tf
-.terraform/
-vprofilekey.pub
-vprofilekey
-errored.tfstate
-*.tfstate
-.DS_Store
-.gitignore
