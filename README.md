@@ -39,8 +39,6 @@ The infrastructure is designed to isolate resources within a VPC:
 - [Terraform](https://www.terraform.io/downloads) v0.14 or later
 - AWS CLI installed and configured with proper credentials
 - An AWS account with permissions to create the required resources
-- (Optional) Node.js for running any additional provisioning scripts
-
 
 
 ## Configuration
