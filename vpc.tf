@@ -2,7 +2,7 @@ module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
   name = var.VPC_NAME
-  cidr = var.vpcCIDR
+  cidr = var.VpcCIDR
 
   azs             = [var.Zone1, var.Zone2, var.Zone3]
   private_subnets = [var.PrivSub1CIDR, var.PrivSub2CIDR, var.PrivSub3CIDR]
@@ -13,6 +13,7 @@ module "vpc" {
   enable_dns_hostnames    = true
   enable_dns_support      = true
   map_public_ip_on_launch = true
+
 
   tags = {
     Name    = var.VPC_NAME
